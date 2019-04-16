@@ -18,8 +18,8 @@ script:
 
 after_script:
   - git init
-  - git config user.name "${U_NAME}"
-  - git config user.email "${U_EMAIL}"
+  - git config user.name "viyoung"
+  - git config user.email "971416434@qq.com"
   - git add .
   - git commit -m "Update tools"
   - git push --force --quiet "https://${GH_Token}@${GH_REF}" master:${P_BRANCH}
