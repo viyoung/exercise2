@@ -14,7 +14,7 @@ cache:
 before_script:
 
 script:
-  - npm run build
+  - npm test
 
 after_script:
   - git init
